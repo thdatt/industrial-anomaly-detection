@@ -1,0 +1,37 @@
+# --- Dataset (do NOT commit — ~5GB; download separately, see README) ---
+mvtec_anomaly_detection/
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png          # keep figures used in README/docs if any
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Notebook ---
+.ipynb_checkpoints/
+
+# --- Outputs / artifacts ---
+outputs/
+*.log
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Unrelated scratch (not part of this project) ---
+Test.py
+
+# --- Claude Code local config (not part of the project) ---
+.claude/
+
+# --- Personal CV (not part of this project) ---
+*.tex
+CV_NgoThanhDat.*
